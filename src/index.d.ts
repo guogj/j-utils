@@ -1,4 +1,4 @@
-declare namespace dipUtils {
+declare namespace jUtils {
     /**
      * 生成数字范围内的随机数
      * @param min 最小数字
@@ -8,6 +8,6 @@ declare namespace dipUtils {
     export function random(min: number, max: number): number
   }
   
-  declare module 'dip-utils' {
-    export = dipUtils
+  declare module 'j-utils' {
+    export = jUtils
   }
